@@ -1,7 +1,3 @@
-
-##########################################################################################################################################
-##########################################################################################################################################
-
 #Les tuples. Un tuple est un type de donnée
 #Pour récupérer le premier element de votre tuple, on écrit temps[0]
 #0 est l'indice de départ de votre tuple.
@@ -80,10 +76,11 @@ def demandeTemps():
     ok = False
     while( ok == False):
         #L'UTILISATEUR RENTRE DES VALEURS
-        a = int(input("Veuillez rentrer le nombre de jours : ") ) 
-        b = int(input("Veuillez rentrer le nombre d'heures : ") )
-        c = int(input("Veuillez rentrer le nombre de minutes : ") )
-        d = int(input("Veuillez rentrer le nombre de secondes : ") )
+        a = input("Veuillez rentrer le nombre de jours : ") #input retourne une chaine de caractere
+        a = int(a)  #Conversion de la chaine de caractère en entier
+        b = int( input("Veuillez rentrer le nombre d'heures : ") )
+        c = int( input("Veuillez rentrer le nombre de minutes : ") )
+        d = int( input("Veuillez rentrer le nombre de secondes : ") )
 
         temps_tuple =(a,b,c,d) #Initialise un tuple des valeurs rentré par l'utilisateur.
     
@@ -94,8 +91,7 @@ def demandeTemps():
             if (ok == True): 
                 if (b > 24 or c > 60 or d > 60):
                     ok = False
-        if(ok == False):
-            print("vous vous etes tromper re rentrer vos valeurs")
+    
     return temps_tuple
     
 

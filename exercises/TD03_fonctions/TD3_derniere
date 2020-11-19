@@ -1,3 +1,4 @@
+import time 
 
 #Les tuples. Un tuple est un type de donnée
 #Pour récupérer le premier element de votre tuple, on écrit temps[0]

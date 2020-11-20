@@ -122,6 +122,36 @@ def tempsEnDate(temps):
     date = (nombre_annee, a[0],a[1],a[2],a[3])
     return date
 
+def affichedate(date):
+    """Affiche la date"""
+    nombre_annee = nombre_annee + 1970
+   
+    list_mois[janvier,fevrier,mars,avril,mai,juin,juillet,aout,septembre,octobre,novembre,decembre]
+    if a[0] < 31 or a[1] < 31*24 or a[2] < 31*24*60 or a[3] < 31*24*60*60 :
+        mois = list_mois[1]
+    elif a[0] > 31 and a[0]< 
+    
+    if (temps[0] > 1 ):
+        print(temps[0], mots_au_pluriel("jour"), end=" ")
+    elif (temps[0] == 1 ):
+        print(temps[0], "jour", end=" ")
+
+    if (temps[1] > 1 ):
+        print(temps[1], mots_au_pluriel("heure"), end=" ")
+    elif (temps[1] == 1 ):
+        print(temps[1], "heure", end=" ")
+
+    if (temps[2] > 1 ):
+        print(temps[2], mots_au_pluriel("minute"), end=" ")
+    elif (temps[2] == 1 ):
+        print(temps[2], "minute", end=" ")
+
+    if (temps[3] > 1 ):
+        print(temps[3], mots_au_pluriel("seconde"))
+    elif (temps[3] == 1 ):
+        print(temps[3], "seconde")
+    
+
 
 ############################################### ZONE DE MON PROGRAMME PRINCIPAL ###############################
 ############################################### TOUJOURS APRES ZONE DEFINTION FONCTIONS #######################

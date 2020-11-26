@@ -3,7 +3,7 @@ from random import *
 ##################### ZONE DE DEFINITION DES FONCTIONS #########################
 
 def syracuse(n):
-    """ Retourne la liste des valeurs de la suite en partant de n jusqu'à 1 """
+     Retourne la liste des valeurs de la suite en partant de n jusqu'à 1 """
     liste_valeurs_successives = [ ]
     while (n != 1):
         if (n % 2 == 0):

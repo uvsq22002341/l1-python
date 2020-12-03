@@ -59,6 +59,9 @@ def estCarreMagique(carre):
     
     return True
 
+def estnormal(carre):
+    """ Retourne True si contient toutes les valeurs de 1 à n^2 où n est la taille du carré, et False sinon """
+    
 
 #####################################################################
 
